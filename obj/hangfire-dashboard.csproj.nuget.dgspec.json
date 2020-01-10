@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ismael.kafeltz/projects/hangfire-dashboard/hangfire-dashboard.csproj": {}
+  },
+  "projects": {
+    "/Users/ismael.kafeltz/projects/hangfire-dashboard/hangfire-dashboard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ismael.kafeltz/projects/hangfire-dashboard/hangfire-dashboard.csproj",
+        "projectName": "hangfire-dashboard",
+        "projectPath": "/Users/ismael.kafeltz/projects/hangfire-dashboard/hangfire-dashboard.csproj",
+        "packagesPath": "/Users/ismael.kafeltz/.nuget/packages/",
+        "outputPath": "/Users/ismael.kafeltz/projects/hangfire-dashboard/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ismael.kafeltz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.7.8, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.8, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.8, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
